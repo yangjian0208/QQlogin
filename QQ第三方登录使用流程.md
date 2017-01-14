@@ -86,7 +86,7 @@ implements IUiListener  实现接口
             e.printStackTrace();
         }
 
-//登陆错误
+    //登陆错误
     @Override
     public void onError(UiError uiError) {
         showLog("登陆错误");
